@@ -1,0 +1,297 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.inactivo{
+    display: none;
+}
+#Header{
+
+    position: fixed;
+    
+    margin: 0 auto;
+    
+    text-align: center;
+    justify-content: space-between;
+    padding: 0.5rem;
+    height: 12.8vh;
+    transition: 0.5s;
+}
+
+
+.content-img__header{
+    
+    position: relative;
+    justify-content: center;
+    display: flex;
+    bottom: 11.5rem;
+    background-color:  rgb(170, 26, 69);
+    right: 5rem;
+    
+    height: 22.5vh;
+    width: 127vw;
+    
+}
+
+.menu-img__header{
+    background-image: url('/icons/588a6507d06f6719692a2d15.png');
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 4rem;
+    height: 4rem;
+    position: relative;
+    left: -2rem;
+    top: 3rem;
+
+}
+
+.logo-img__header{
+    background: url('/icons/Screenshot_20230102-161642_Instagram.jpg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 15rem;
+    height: 10rem;
+    position: relative;
+    right: 1rem;
+    
+}
+
+.search-img__header{
+    background-image: url('/icons/59cfc4d2d3b1936210a5ddc7.png');
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 3rem;
+    height: 5rem;
+    position: relative;
+    left: 1rem;
+    top: 3rem;
+    
+}
+
+.buscador{
+    width: 50%;
+    height: 5vh;
+    background-color: red;
+    border: 0.5px solid black;
+    border-radius: 1rem;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    bottom: 15rem;
+    right: 5rem;
+
+}
+.input-content{
+    width: 70%;
+    height: 100%;
+    border: none;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    outline: none;
+    
+}
+
+.carrito-img__header{
+    background: url('/icons/icon_shopping_cart.svg');
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 3rem;
+    height: 5rem;
+    position: relative;
+    left: 2rem;
+    top: 3rem;
+    
+    
+}
+
+.menu-mobile{
+    background-color: rgb(170, 26, 69);
+    width: 60%;
+    height: 100%;
+    padding: 1rem;
+    position: relative;
+    font-size: 2rem;
+    font-family: sans-serif;
+    bottom: 20rem;
+    right: 1rem;
+    transition: 1s;
+}
+.img-menu{
+    display: flex;
+}
+
+.img-closed__menu{
+    position: relative;
+    background-image: url('./icons/icon_close.png');
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 2rem;
+    height: 4rem;
+    left: 2rem;
+}
+
+.img-logo___menu{
+    display: flex;
+    background-image: url('./icons/Screenshot_20230102-161642_Instagram.jpg');
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 17rem;
+    height: 4rem;
+    position: relative;
+    left: 2rem;
+}
+.lista-menu li{
+    list-style: none;
+    margin-top: 3rem;
+}
+.lista-menu a{
+    padding: 1rem;
+    margin-top: 3rem;
+    color: white;
+    text-decoration: none;
+}
+.lista-menu a:hover{
+    background-color: white;
+}
+.disfuminadoWhite a{
+    color: rgb(119, 116, 116);
+}
+.descripcion-img{
+    
+    margin-top: 10rem;
+}
+.main-camion__img{
+    background: url('/icons/Screenshot_20230102-192352_Instagram.jpg');
+    background-position: left;
+    background-size: 35rem;
+    bottom: 5rem;
+    background-repeat: no-repeat;
+    width: 15rem;
+    height: 30rem;
+    min-width: 325px;
+    
+}
+main{
+    background-color: rgb(236, 39, 98);
+    min-width: 325px;
+}
+
+
+.presentacion-marca{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    
+    margin-top: 3rem;
+}
+.presentacion-marca h1{
+    width: 80%;
+    padding: 1rem;
+    margin: 0 auto;
+    background-color: antiquewhite;
+    font-size: 1.8rem;
+    font-family: sans-serif;
+    border-radius: 1rem;
+
+}
+
+.img-marcas{
+    background: url('/icons/Screenshot_20230102-200648_Instagram.jpg');
+    background-position: left;
+    background-size: 35rem;
+    
+    background-repeat: no-repeat;
+    width: 32rem;
+    height: 40rem;
+    min-width: 325px;
+    margin-top: 1rem;
+}
+.carta-container{
+    width: 90%;
+    position: static;
+    margin: 0 auto;
+    padding: 4rem;
+    margin-top: 2rem;
+    border-radius: 1rem;
+}
+.carta-container a{
+    padding: 1rem;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(221, 144, 44);
+    font-family: sans-serif;
+    border-radius: 1rem;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+}
+.chocolate{
+    background-image:url('/icons/Screenshot_20230102-205606_Instagram.jpg') ;
+    background-size: 30rem;
+    background-repeat: no-repeat;
+    width: 80%;
+    border-radius: 1rem;
+}
+.container-productos{
+    width: 60%;
+    background-color: rgb(250, 221, 182);
+    padding: 2rem;
+    margin-bottom: 1rem;
+    font-family: sans-serif;
+    right: 2rem;
+    border-radius: 1rem;
+
+}
+.siropeCho{
+    background-image: url('./icons/Screenshot_20230103-182304_Instagram.jpg');
+    background-size: 30rem;
+    background-repeat: no-repeat;
+    width: 80%;
+    height: 40vh;
+    border-radius: 1rem;
+}
+.siropeFresa{
+    background-image: url('./icons/Screenshot_20230103-182323_Instagram.jpg');
+    background-size: 30rem;
+    background-repeat: no-repeat;
+    width: 80%;
+    height: 40vh;
+    border-radius: 1rem;
+}
+.pudin{
+    background-image: url('./icons/Screenshot_20230103-182316_Instagram.jpg');
+    background-size: 30rem;
+    background-repeat: no-repeat;
+    width: 80%;
+    height: 40vh;
+    border-radius: 1rem;
+}
+.arequipe{
+    background-image: url('./icons/Screenshot_20230103-193708_Instagram.jpg');
+    background-size: 30rem;
+    background-repeat: no-repeat;
+    width: 80%;
+    height: 40vh;
+    border-radius: 1rem;
+}
+
+.mermelada{
+    background-image: url('./icons/Screenshot_20230103-182337_Instagram.jpg');
+    background-size: 30rem;
+    background-repeat: no-repeat;
+    width: 80%;
+    height: 40vh;
+    border-radius: 1rem;
+}
